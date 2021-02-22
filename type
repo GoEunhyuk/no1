@@ -1,0 +1,12 @@
+package main
+
+import (
+	"fmt"
+	"reflect"
+)
+func main(){
+	var a int16 =95
+	fmt.Println("a=",a,"type=",reflect.TypeOf(a))
+	b:=int32(a)
+	fmt.Println("b=",b,"type=",reflect.TypeOf(b))
+}
